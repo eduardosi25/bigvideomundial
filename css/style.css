@@ -7,28 +7,28 @@
 
 @font-face {
   font-family: 'GothamCondensed-Book';
-  src: url('../bigvideomundial/fonts/GothamCondensed-Book.eot') format('embedded-opentype');
+  src: url('../fonts/GothamCondensed-Book.eot') format('embedded-opentype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'GothamCondensed-Book';
-  src: url('../bigvideomundial//fonts/GothamCondensed-Book.otf') format('embedded-opentype');
+  src: url('../fonts/GothamCondensed-Book.otf') format('embedded-opentype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'GothamCondensed-Ultra';
-  src: url('../bigvideomundial//fonts/GothamCondensed-Ultra.eot') format('opentype');
+  src: url('../fonts/GothamCondensed-Ultra.eot') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'GothamCondensed-Ultra';
-  src: url('../bigvideomundial//fonts/GothamCondensed-Ultra.otf') format('opentype');
+  src: url('../fonts/GothamCondensed-Ultra.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }

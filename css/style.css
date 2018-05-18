@@ -104,7 +104,7 @@ pre {
 .nav {
   min-height: 80%;
   top: 40px;
-  
+
   left: 0px;
   z-index: 999999;
   width: 100%;
@@ -290,4 +290,7 @@ div.estadio.techo > img{
 	margin-left: auto;
 	 margin-right: auto;
 	 display: block;
+}
+body > div.nav.box.container-fluid > div:nth-child(3){
+	margin-top: 50px;
 }

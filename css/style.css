@@ -257,7 +257,7 @@ div.estructura.col-lg-4 {
 div.titulo-container{
 	text-align: center;
 }
-@media all and (min-width:320px) and (max-width: 480px) {
+@media all and (min-width:300px) and (max-width: 480px) {
 div.titulo-container.col-lg-6 {
 	text-align: center;
 }

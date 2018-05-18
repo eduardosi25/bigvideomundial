@@ -197,7 +197,7 @@ pre {
 
 .square {
   background: linear-gradient(#e40518, #950212);
-  height: 140px;
+  height: auto;
   width: 140px;
   padding-top: 5px;
 	margin-top: 20px;
@@ -293,4 +293,9 @@ div.estadio.techo > img{
 }
 body > div.nav.box.container-fluid > div:nth-child(3){
 	margin-top: 50px;
+}
+#big-video-wrap {
+
+    height: 120% !important;
+
 }

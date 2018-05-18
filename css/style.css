@@ -104,7 +104,6 @@ pre {
 .nav {
   min-height: 90%;
   top: 40px;
-
   left: 0px;
   z-index: 999999;
   width: 100%;
@@ -114,10 +113,6 @@ pre {
   -o-transition-duration: 0.6s;
   transition-duration: 0.6s;
 }
-
-
-
-
 
 .video-list li {
   margin-bottom: 10px;
@@ -200,10 +195,8 @@ pre {
   height: auto;
   width: 140px;
   padding-top: 5px;
-	margin-top: 20px;
+  margin-top: 20px;
 }
-
-
 
 .nav {
   display: block;
@@ -242,60 +235,68 @@ div.estructura.col-lg-4 {
   border: 1px solid red;
   border-radius: 10px 10px 10px 10px;
 }
+
 .square-mobile {
   background: linear-gradient(#e40518, #950212);
   height: 140px;
   width: 140px;
   padding-top: 5px;
-	margin-top: 20px;
-	color: white;
+  margin-top: 20px;
+  color: white;
   border: 1px solid red;
   border-radius: 10px 10px 10px 10px;
-	text-align: center;
-	height: auto;
+  text-align: center;
+  height: auto;
 }
-div.titulo-container{
-	text-align: center;
+
+div.titulo-container {
+  text-align: center;
 }
+
 @media all and (min-width:300px) and (max-width: 480px) {
-div.titulo-container.col-lg-6 {
-	text-align: center;
-}
-div.titulo-container.col-lg-6 > span{
-	    font-size: 55pt;
-}
-div.estadio.techo > img {
-	width:100%;
-}
-.texto {
-  font-size: 12pt;
-}
+  div.titulo-container.col-lg-6 {
+    text-align: center;
+  }
+  div.titulo-container.col-lg-6>span {
+    font-size: 55pt;
+  }
+  div.estadio.techo>img {
+    width: 100%;
+  }
+  .texto {
+    font-size: 12pt;
+  }
+  .estadio {
+    font-size: 60pt;
+  }
 }
 
 @media all and (min-width:481px) and (max-width: 991px) {
-div.titulo-container.col-lg-6 {
-	text-align: center;
+  div.titulo-container.col-lg-6 {
+    text-align: center;
+  }
+  div.titulo-container.col-lg-6>span {
+    font-size: 60pt;
+  }
+  div.estadio.techo>img {
+    width: 100%;
+  }
 }
-div.titulo-container.col-lg-6 > span{
-	    font-size: 60pt;
+
+div.estadio.techo>img {
+  margin-top: 50px;
 }
-div.estadio.techo > img {
-	width:100%;
+
+div.estadio.techo>img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
+
+body>div.nav.box.container-fluid>div:nth-child(3) {
+  margin-top: 50px;
 }
-div.estadio.techo > img {
-	margin-top: 50px;
-}
-div.estadio.techo > img{
-	margin-left: auto;
-	 margin-right: auto;
-	 display: block;
-}
-body > div.nav.box.container-fluid > div:nth-child(3){
-	margin-top: 50px;
-}
+
 #big-video-wrap {
-
-    height: 120% !important;
-
+  height: 120% !important;
 }

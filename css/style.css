@@ -286,6 +286,9 @@ div.titulo-container.col-lg-6 > span{
 div.estadio.techo.offset-lg-1.col-lg-4 > img {
 	width:100%;
 }
+.texto {
+  font-size: 12pt;
+}
 }
 
 @media all and (min-width:481px) and (max-width: 991px) {

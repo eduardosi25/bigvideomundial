@@ -306,3 +306,7 @@ body>div.nav.box.container-fluid>div:nth-child(3) {
 #big-video-wrap {
   height: 120% !important;
 }
+div.nav.box.container-fluid > div:nth-child(4){
+  margin-right: 10px;
+  margin-left: 10px;
+}

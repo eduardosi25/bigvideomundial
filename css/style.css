@@ -310,3 +310,6 @@ div.nav.box.container-fluid > div:nth-child(4){
   margin-right: 10px;
   margin-left: 10px;
 }
+.bullet{
+  color: #f6e135;
+}
